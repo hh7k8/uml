@@ -1,4 +1,4 @@
 rule Ecore2XML
-  transform t : EMF!EMF
+  transform t : Tree!Tree
   to n : XML!XML { 
    }

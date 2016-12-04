@@ -4,7 +4,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Pipeline">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="station" upperBound="-1"
-        eType="#//Station" eOpposite="#//Station/pipeline"/>
+        eType="#//Station" containment="true" eOpposite="#//Station/pipeline"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Station">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>

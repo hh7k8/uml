@@ -4,10 +4,11 @@
     rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
     complianceLevel="8.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
   <foreignModel>example2.ecore</foreignModel>
-  <genPackages prefix="Example2" disposableProviderFactory="true" ecorePackage="example2.ecore#/">
+  <genPackages prefix="Example2" basePackage="org.eclipse.emf.example2.model" disposableProviderFactory="true"
+      ecorePackage="example2.ecore#/">
     <genClasses ecoreClass="example2.ecore#//Pipeline">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute example2.ecore#//Pipeline/name"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference example2.ecore#//Pipeline/station"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference example2.ecore#//Pipeline/station"/>
     </genClasses>
     <genClasses ecoreClass="example2.ecore#//Station">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute example2.ecore#//Station/name"/>

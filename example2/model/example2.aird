@@ -6,7 +6,17 @@
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_7b4YAKhaEeaoH47kOjB-Zg" name="example2">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_7b4YAahaEeaoH47kOjB-Zg" source="DANNOTATION_CUSTOMIZATION_KEY">
-        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_7b4YAqhaEeaoH47kOjB-Zg"/>
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_7b4YAqhaEeaoH47kOjB-Zg">
+          <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_bColoLpqEeaI_JiP3QGP3g" sourceArrow="FillDiamond" routingStyle="manhattan">
+            <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <beginLabelStyleDescription xmi:type="style:BeginLabelStyleDescription" xmi:id="_bColobpqEeaI_JiP3QGP3g" showIcon="false" labelExpression="service:renderEOpposite">
+              <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </beginLabelStyleDescription>
+            <endLabelStyleDescription xmi:type="style:EndLabelStyleDescription" xmi:id="_bColorpqEeaI_JiP3QGP3g" showIcon="false" labelExpression="service:render">
+              <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </endLabelStyleDescription>
+          </computedStyleDescriptions>
+        </data>
       </ownedAnnotationEntries>
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_7b4YBqhaEeaoH47kOjB-Zg" source="GMF_DIAGRAMS">
         <data xmi:type="notation:Diagram" xmi:id="_7b4YB6haEeaoH47kOjB-Zg" type="Sirius" element="_7b4YAKhaEeaoH47kOjB-Zg" measurementUnit="Pixel">
@@ -109,10 +119,9 @@
         <target xmi:type="ecore:EReference" href="example2.ecore#//Pipeline/station"/>
         <semanticElements xmi:type="ecore:EReference" href="example2.ecore#//Station/pipeline"/>
         <semanticElements xmi:type="ecore:EReference" href="example2.ecore#//Pipeline/station"/>
-        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_J7woUKhjEeaoH47kOjB-Zg" sourceArrow="InputArrow" routingStyle="manhattan" strokeColor="0,0,0">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='Bi-directional%20EC_EReference%20']/@style"/>
-          <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_J7woUahjEeaoH47kOjB-Zg" showIcon="false"/>
-          <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_J7woUqhjEeaoH47kOjB-Zg" showIcon="false"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_bColo7pqEeaI_JiP3QGP3g" description="_bColoLpqEeaI_JiP3QGP3g" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+          <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_bColpLpqEeaI_JiP3QGP3g" showIcon="false"/>
+          <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_bColpbpqEeaI_JiP3QGP3g" showIcon="false"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='Bi-directional%20EC_EReference%20']"/>
       </ownedDiagramElements>
