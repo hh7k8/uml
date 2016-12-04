@@ -1,0 +1,4 @@
+rule Ecore2XML
+  transform t : EMF!EMF
+  to n : XML!XML { 
+   }
