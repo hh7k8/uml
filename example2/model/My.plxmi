@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genericEditor:Pipeline xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:genericEditor="http://www.example.org/genericEditor" name="Northen Gateway">
+  <station name="Edson" milepost="101.3"/>
+</genericEditor:Pipeline>
